@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 class AdopterForm extends Component {
   render() {
     return (
+      <div>
+      <h3>Please enter adopter information</h3>
+
       <div class="row">
         <form class="col s12">
           <div class="row">
@@ -25,6 +30,7 @@ class AdopterForm extends Component {
           </div>
         </form>
         <a class="waves-effect waves-light btn">submit</a>
+      </div>
       </div>
     );
   } 
